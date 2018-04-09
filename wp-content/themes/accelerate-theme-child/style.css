@@ -1,0 +1,430 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Your Name!
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+.home-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  margin: 0 0 2em;
+}
+
+#masthead {
+  background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: #45ac9d;
+}
+
+/** Front page featured work styles **/
+ul.homepage-featured-work {
+  text-align: center;
+}
+
+ul.homepage-featured-work li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 20px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.featured-work h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+}
+
+.featured-work h3 {
+  margin: 0.5em 0 1em;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: 'Open Sans';
+}
+
+/** Front page our services style **/
+.our-services {
+  text-align: center;
+}
+
+.our-services h4 {
+  text-transform: uppercase;
+  margin-top: 3em;
+  font-family: 'Montserrat';
+}
+
+ul.service-list li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 10px;
+  vertical-align: top;
+}
+
+ul.service-list li h3 {
+  font-family: 'Open Sans';
+  font-size: 1em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+/** Front page blog excerpt styles **/
+.blog-post {
+  width: 50%;
+  float: left;
+  padding-right: 5%;
+  margin-bottom: 2em;
+}
+
+.blog-post h4 {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+.read-more-link {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #45ac9d;
+  text-transform: uppercase;
+  padding-top: 2em;
+}
+
+/** Front page Twitter feed styles **/
+.twitter-feed {
+  width: 50%;
+  float: left;
+  padding-left: 5%;
+  margin-bottom: 2em;
+}
+
+.twitter-feed h4 {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 .5em;
+}
+
+.twitter-feed h3 {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+#ctf .ctf-item:first-child {
+  padding: 0 0 1em;
+}
+
+#ctf .ctf-item {
+  padding: 0;
+}
+
+#ctf.ctf-narrow .ctf-tweet-content {
+  padding: 0;
+}
+
+.follow-us-link {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #45ac9d;
+  text-transform: uppercase;
+  padding-top: 2em;
+}
+
+/** Case study styles **/
+article.case-study {
+  margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+}
+
+aside.case-study-sidebar h2 {
+  font-family: 'Open Sans';
+  font-size: 1.25em;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+aside.case-study-sidebar h5 {
+  font-family: 'Open Sans';
+  font-size: 0.8em;
+  color: #a6a6a6;
+  font-weight: 500;
+  margin: 0;
+  text-transform: none;
+}
+
+aside.case-study-sidebar h6 {
+  font-family: 'Open Sans';
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 1em 0 0;
+}
+
+div.case-study-images {
+  float: left;
+  width: 65%;
+}
+
+div.case-study-images img {
+  display: block;
+  margin-bottom: 15%;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+#navigation {
+  width: 100%;
+}
+
+/** Blog page **/
+p {
+  padding-bottom: 1em;
+}
+
+/** Blog page sidebar **/
+#sidebar .widget {
+  padding-right: 0;
+}
+
+p.signup-blurb, p.signup-input {
+  padding-bottom: 1em;
+}
+
+.signup-input input, .signup-submit input {
+  padding: 2%;
+  width: 100%;
+}
+
+p.signup-submit {
+  padding-top: 0.5em;
+}
+
+.signup-submit input {
+  background: #45ac9d;
+}
+
+/** Contact page styles **/
+div.contact-form {
+  width: 60%;
+  margin: auto;
+}
+
+div.contact-form h2, p {
+  margin: 0;
+}
+
+div.nf-form-content {
+  margin: 2em 0 0 0;
+}
+
+.nf-form-fields-required {
+  display: none;
+}
+
+.ninja-forms-req-symbol {
+  display: none;
+}
+
+#nf-field-1-container {
+  width: 47%;
+  float: left;
+  margin-right: 3%;
+  display: block;
+}
+
+#nf-field-2-container {
+  width: 47%;
+  float: right;
+  margin-left: 3%;
+  display: block;
+  clear: none;
+}
+
+#nf-field-4 {
+  background: #45ac9d;
+  float: right;
+}
+
+/** About page styles **/
+#primary-about {
+    background: url("img/taxi-photo.jpg") no-repeat scroll center bottom / cover rgba(0, 0, 0, 0);
+    margin: 0;
+    width: 100%;
+    height: 21em;
+    text-align: center;
+}
+
+.about-main p {
+  margin: 3em auto;
+
+  color: #fff;
+  text-align: center;
+  width: 35%;
+  font-weight: bold;
+  font-size: 1.3em;
+  vertical-align: middle;
+}
+
+.services {
+  margin: auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  width: 90%;
+}
+
+.services h4 {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+
+.services p {
+  text-align: center;
+  font-size: 0.8em;
+  color: #3b3b3b;
+  padding-bottom: 3em;
+}
+
+.service-list-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+  align-items: center;
+}
+
+.icon-1, .icon-3 {
+  text-align: left;
+}
+
+.icon-2, .icon-4 {
+  text-align: right;
+}
+
+.service-1 p, .service-2 p, .service-3 p, .service-4 p {
+  text-align: left;
+}
+
+.icon-1 {
+  grid-area: 1/1/2/2;
+}
+
+.service-1 {
+  grid-area: 1/2/2/5;
+}
+
+.service-2 {
+  grid-area: 2/1/3/4;
+}
+
+.icon-2 {
+  grid-area: 2/4/3/5;
+}
+
+.icon-3 {
+  grid-area: 3/1/4/3;
+}
+
+.service-3 {
+  grid-area: 3/2/4/5;
+}
+
+.service-4 {
+  grid-area: 4/1/5/4;
+}
+
+.icon-4 {
+  grid-area: 4/4/5/5;
+}
+
+.call-to-action {
+  width: 90%;
+  max-width: 960px;
+  border-top: 1px solid #bfbfbf;
+  text-align: center;
+  margin: auto;
+}
+
+.call-to-action h3 {
+  font-family: 'Open Sans';
+}
+
+.call-to-action a {
+  padding: 0.8em 3em;
+  margin-left: 2em;
+  font-family: 'Open Sans';
+}
+
+/** Footer styles **/
+.site-footer {
+  padding-top: 1.25em;
+
+}
+
+ul#menu-social-media-nav li {
+  display: inline-block;
+  list-style: none;
+  font-size: 1.5em;
+  float: right;
+}
+
+ul#menu-social-media-nav li i {
+  margin-right: 0;
+  margin-left: 0.25em;
+  background-color: #3b3b3b;
+  padding: 0.2em;
+  border-radius: 50%;
+  color: #fff;
+}
+
+ul#menu-social-media-nav span {
+  display: none;
+}
+
+/** 404 error page **/
+.error-page {
+  background: url("img/plane-in-trees-david-kovalenko-414249-unsplash.jpg") no-repeat scroll center bottom / cover rgba(0, 0, 0, 0);
+  width: 100%;
+  max-width:960px;
+  margin: 0;
+  height: 600px;
+  color: #fff;
+}
+
+.error-page h2 {
+  font-family: 'Luckiest Guy', 'Montserrat', 'Open Sans', Arial, sans-serif;
+  font-size: 3em;
+  padding: 5%;
+  margin: 0;
+  line-height: 1em;
+  font-stretch: expanded;
+}
+
+.error-page h3 {
+  font-family: 'Share', 'Montserrat', 'Open Sans', Arial, sans-serif;
+  font-size: 2em;
+  line-height: 1.3em;
+  padding: 5%;
+  width: 40%;
+  margin: 0;
+}
